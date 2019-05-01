@@ -43,8 +43,8 @@ def key_main(dir) :
         if whattodo == "code":
             while whattodo != "close":
                 import os.path
-                in = input()
-                command_line.append(in)
+                code = input()
+                command_line.append(code)
                 newfile = open(os.path.join(dir + input("File Name:  ") + ".txt"), "w+")
         if whattodo == "compile":
             if command_line != []:
