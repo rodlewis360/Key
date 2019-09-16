@@ -1,5 +1,5 @@
 #!usr\bin\python
-dir = "C:/%USERNAME%/Downloads/"
+dir = "C:/%USERNAME%/Documents/"
 def key_main(dir) :
     while True:
         def key_compiler(command_line):
